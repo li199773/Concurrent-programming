@@ -4,7 +4,7 @@
 ### 方式一：直接进行创建：
         t = threading.Thread(target=, args=(,))  # 逗号,传入的是一个元祖
         t.start()
-
+### 方式二：使用类进行创建：
 
 
 
