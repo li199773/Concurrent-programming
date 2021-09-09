@@ -10,6 +10,8 @@
                 # 必要进行还要处理父类
                 super().__init__()
                 self.filename = filename
+## 2.共享全局变量问题：
+### 1.想在函数里面修改使用和修改全局变量的问题使用`global`
 
 
 
