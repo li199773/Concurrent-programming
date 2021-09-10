@@ -24,7 +24,8 @@
         lock.release() # 解锁
 ## 4.队列：先进先出模式。
         q = Queue # 创建队列
-        q.put(1)
+        q.put(1) # 队列元素的插入
+        print(q.get()) # 队列元素的取出
 
 
 
