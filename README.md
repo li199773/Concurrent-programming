@@ -22,7 +22,8 @@
         lock = threading.Lock()
         lock.acquire() # 上锁
         lock.release() # 解锁
-## 4.队列：
+## 4.队列：先进先出模式。
+
 
 
 
