@@ -23,7 +23,8 @@
         lock.acquire() # 上锁
         lock.release() # 解锁
 ## 4.队列：先进先出模式。
-
+        q = Queue # 创建队列
+        q.put(1)
 
 
 
