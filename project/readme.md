@@ -7,3 +7,4 @@
 #### 2.定义爬取，存放的队列
     url_queue = Queue()  # 队列设置为无限大即可
     content_queue = Queue()
+#### 3.定义消费者 作用：保存的作用
