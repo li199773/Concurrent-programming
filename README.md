@@ -2,7 +2,10 @@
 # 总结：线程，进程，协程      
 ## 1.进程，线程的创建：
 ### 方式一：直接进行创建：
-        t = threading.Thread(target=, args=(,))  # 逗号,传入的是一个元祖
+        from multiprocessing import Process
+        t = threading.Thread(target=, args=(,)) # target=传递函数,arg传递变量，是一个元祖，一个元素的话要加逗号
+        p = Process(target=func, args=(123,)) 
+        p.start()
         t.start()
 ### 方式二：使用类进行创建：
         class My_Thread(threading.Thread): # 继承父类进行改写
