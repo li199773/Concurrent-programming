@@ -4,9 +4,8 @@
 ### 方式一：直接进行创建：
         from multiprocessing import Process
         t = threading.Thread(target=, args=(,)) # target=传递函数,arg传递变量，是一个元祖，一个元素的话要加逗号
-        p = Process(target=func, args=(123,)) 
+        p = Process(target=func, args=(123,)) # 进程创建
         p.start()
-        t.start()
 ### 方式二：使用类进行创建：
         class My_Thread(threading.Thread): # 继承父类进行改写
             def __init__(self, filename):  # 定义初始化的方法
